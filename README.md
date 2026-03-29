@@ -21,7 +21,6 @@
 
 ## 📊 Структура репозитория
 * `app.py` — основной файл веб-приложения и логика интерфейса.
-* `train_model.py` — скрипт обучения модели и генерации файла .pkl.
 * `car_model.pkl` — сохраненные веса обученной модели (Random Forest).
 * `requirements.txt` — список зависимостей для корректной работы в облаке.
 * `README.md` — документация проекта.
@@ -34,10 +33,10 @@
 
 2. Установите необходимые библиотеки:
 
-#Bash
-* pip install -r requirements.txt
+   Bash
+   * pip install -r requirements.txt
 
 3. Запустите приложение:
 
-#Bash
-* python -m streamlit run app.py
+   Bash
+   * python -m streamlit run app.py
