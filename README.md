@@ -34,10 +34,10 @@
 
 2. Установите необходимые библиотеки:
 
-```Bash
+#Bash
 * pip install -r requirements.txt
 
 3. Запустите приложение:
 
-```Bash
+#Bash
 * python -m streamlit run app.py
